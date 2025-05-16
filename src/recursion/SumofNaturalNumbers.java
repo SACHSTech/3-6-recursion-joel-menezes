@@ -2,10 +2,13 @@ package recursion;
 
 public class SumofNaturalNumbers {
     public static int sum(int n) {
-        return 0;
+        if (n == 1)
+            return 1;
+        else
+            return sum(n - 1) + n;
     }
 
     public static void main(String[] args) {
-        System.out.println(sum(5)); // Output: 15
+        System.out.println(sum(10)); // Output: 55
     }
 }
