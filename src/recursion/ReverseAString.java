@@ -4,7 +4,7 @@ public class ReverseAString {
     /**
      * Description: This method reverses Strings
      * 
-     * @param s String to be reversed
+     * @param s String thats to be reversed
      * @return String that is reversed
      * @author Joel
      */
